@@ -49,6 +49,7 @@
   "scripts": {
     "test": "mocha 'test/**/*.test.js'",
     "lint": "eslint src",
+    "build": "sqlite3 db.db < db.sql",
     "start": "node src/index.js"
   },
   "author": "Daniel Espendiller",
